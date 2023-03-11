@@ -1,0 +1,27 @@
+@media (min-width: 1280px) {
+    .lead__map {
+        margin-top: 90px;
+        width: 937px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .lead__map {
+        margin-top: 85px;
+        width: 884px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .lead__map {
+        margin-top: 70.4px;
+        width: 731px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__map {
+        margin-top: 29.3px;
+        width: 305px;
+    }
+}
