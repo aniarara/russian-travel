@@ -14,3 +14,7 @@
         gap: 16px;
     }
 }
+
+.__overlay:hover {
+    background-color: rgba(42, 44, 47, .8);
+}
