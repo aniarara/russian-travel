@@ -2,7 +2,6 @@
     margin: 0;
     margin-top: 40px;
     width: 690px;
-    height: 208px;
     font-size: 16px;
     line-height: 163%;
 }
@@ -10,13 +9,11 @@
 @media (max-width: 1023px) {
     .intro__text {
         width: 720px;
-        height: 208px;
     }
 }
 
 @media (max-width: 767px) {
     .intro__text {
         width: 288px;
-        height: 520px;
     }
 }

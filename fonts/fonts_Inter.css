@@ -6,15 +6,8 @@
 }
 
 @font-face {
-  src: url(../fonts/Inter/Inter/Inter-Bold.woff2) format('woff2'),
-    url(../fonts/Inter/Inter/Inter-Bold.woff) format('woff');
+  src: url(../fonts/Inter/Inter/Inter-Black.woff2) format('woff2'),
+    url(../fonts/Inter/Inter/Inter-Black.woff) format('woff');
   font-family: 'Inter';
-  font-weight: bold;
-}
-
-@font-face {
-  src: url(../fonts/Inter/Inter/Inter-SemiBold.woff2) format('woff2'),
-    url(../fonts/Inter/Inter/Inter-SemiBold.woff) format('woff');
-  font-family: 'Inter';
-  font-weight: 600;
+  font-weight: 900;
 }
