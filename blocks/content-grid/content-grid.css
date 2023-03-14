@@ -1,13 +1,16 @@
 .content-grid {
     margin: 0 auto;
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    margin-bottom: 92px;
-    grid-template-columns: auto;
     margin-top: 48px;
-    gap: 92px;
+    margin-bottom: 92px;
     box-sizing: border-box;
+    /* display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 92px;
 }
 
 @media (min-width: 1280px) {

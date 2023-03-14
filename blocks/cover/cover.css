@@ -3,6 +3,8 @@
     background-image: url(../../images/__cover_background.jpg);
     background-size: cover;
     display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 @media (min-width: 1280px) {
