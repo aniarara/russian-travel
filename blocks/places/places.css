@@ -1,28 +1,26 @@
 .places {
     display: grid;
     justify-content: center;
+    grid-template-rows: auto;
+    row-gap: 80px;
+    box-sizing: border-box;
 }
 
 @media (min-width: 1280px) {
     .places {
         grid-template-columns: 984px;
-        grid-template-rows: auto;
-        row-gap: 80px;
     }
 }
 
 @media (max-width: 1279px) {
     .places {
         grid-template-columns: 928px;
-        grid-template-rows: auto;
-        row-gap: 80px;
     }
 }
 
 @media (max-width: 1023px) {
     .places {
         grid-template-columns: 720px;
-        grid-template-rows: auto;
         row-gap: 73px;
     }
 }
@@ -30,7 +28,6 @@
 @media (max-width: 767px) {
     .places {
         grid-template-columns: 320px;
-        grid-template-rows: auto;
         row-gap: 50px;
     }
 }

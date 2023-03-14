@@ -1,19 +1,18 @@
 .intro-grid {
     display: grid;
     justify-content: center;
+    gap: 92px;
 }
 
 @media (min-width: 1280px) {
     .intro-grid {
         grid-template-columns: 984px;
-        gap: 92px;
     }
 }
 
 @media (max-width: 1279px) {
     .intro-grid {
         grid-template-columns: 928px;
-        gap: 92px;
     }
 }
 

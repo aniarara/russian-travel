@@ -1,20 +1,21 @@
 .place {
     display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 48px;
 }
 
 @media (min-width: 1280px) {
     .place {
+        max-width: 984px;
         grid-template-columns: 460px auto;
-        grid-template-rows: auto auto;
         column-gap: 40px;
-        row-gap: 48px;
     }
 }
 
 @media (max-width: 1279px) {
     .place {
+        max-width: 928px;
         grid-template-columns: 440px auto;
-        grid-template-rows: auto auto;
         column-gap: 32px;
         row-gap: 48px;
     }
@@ -22,15 +23,15 @@
 
 @media (max-width: 1023px) {
     .place {
+        max-width: 720px;
         grid-template-columns: 340px auto;
-        grid-template-rows: auto auto;
         column-gap: 28px;
-        row-gap: 48px;
     }
 }
 
 @media (max-width: 767px) {
     .place {
+        max-width: 320px;
         grid-template-columns: 320px;
         grid-template-rows: auto;
         row-gap: 32px;

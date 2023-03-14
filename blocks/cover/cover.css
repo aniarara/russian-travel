@@ -2,32 +2,33 @@
     margin: 0 auto;
     background-image: url(../../images/__cover_background.jpg);
     background-size: cover;
+    display: block;
 }
 
 @media (min-width: 1280px) {
     .cover {
         width: 1184px;
-        height: 740px;
+        min-height: 740px;
     }
 }
 
 @media (max-width: 1279px) {
     .cover {
         width: 1024px;
-        height: 640px;
+        min-height: 640px;
     }
 }
 
 @media (max-width: 1023px) {
     .cover {
         width: 768px;
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media (max-width: 767px) {
     .cover {
         width: 320px;
-        height: 200px;
+        min-height: 200px;
     }
 }

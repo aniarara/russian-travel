@@ -4,39 +4,39 @@
     grid-template-rows: auto;
     justify-content: center;
     margin-bottom: 92px;
-
+    grid-template-columns: auto;
+    margin-top: 48px;
+    gap: 92px;
+    box-sizing: border-box;
 }
 
 @media (min-width: 1280px) {
     .content-grid {
         margin-top: 56px;
-        grid-template-columns: auto;
-        gap: 92px;
+        max-width: 1184px;
     }
 }
 
 @media (max-width: 1279px) {
     .content-grid {
-        margin-top: 48px;
-        grid-template-columns: auto;
-        gap: 92px;
+        max-width: 1024px;
     }
 }
 
 @media (max-width: 1023px) {
     .content-grid {
-        margin-top: 48px;
         margin-bottom: 88px;
         grid-template-columns: auto;
         gap: 88px;
+        max-width: 768px;
     }
 }
 
 @media (max-width: 767px) {
     .content-grid {
-        margin-top: 48px;
         margin-bottom: 64px;
         grid-template-columns: 320px;
         gap: 64px;
+        max-width: 320px;
     }
 }

@@ -1,7 +1,7 @@
-.__overlay {
+.cover__overlay {
     background-color: rgba(42, 44, 47, .3);
     width: 100%;
-    height: 100%;   
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,11 +10,11 @@
 }
 
 @media (max-width: 767px) {
-    .__overlay {
+    .cover__overlay {
         gap: 16px;
     }
 }
 
-.__overlay:hover {
+.cover__overlay:hover {
     background-color: rgba(42, 44, 47, .8);
 }

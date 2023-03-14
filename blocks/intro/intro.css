@@ -5,8 +5,15 @@
     justify-content: center;
 }
 
-@media (max-width: 767px) {
-   .intro {
-    width: 288px;    
+@media (max-width: 1023px) {
+    .intro {
+        margin: 0 auto;
    }
 } 
+
+@media (max-width: 767px) {
+    .intro {
+        margin: 0 auto;
+        width: 288px;
+    }
+}

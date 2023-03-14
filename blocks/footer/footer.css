@@ -1,6 +1,5 @@
 .footer {
-    margin: 0 auto;
-    padding-bottom: 24px;
+    margin: 0 auto 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,6 +25,7 @@
 
 @media (max-width: 767px) {
     .footer {
+        margin-bottom: 22px;
         width: 320px;
         flex-direction: column;
         justify-content: space-between;

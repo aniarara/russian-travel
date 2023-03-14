@@ -1,11 +1,3 @@
-.lead__photo {
-    background-image: url(../../../images/lead_img.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 @media (min-width: 1280px) {
     .lead__photo {
         width: 984px;
