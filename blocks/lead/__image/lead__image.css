@@ -1,3 +1,8 @@
+.lead__image {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 @media (min-width: 1280px) {
     .lead__image {
         margin-top: 64px;

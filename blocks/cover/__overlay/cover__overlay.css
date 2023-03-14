@@ -9,7 +9,7 @@
     justify-content: center;
     gap: 32px;
 }
-/* 
+
 @media (min-width: 1280px) {
     .cover__overlay {
         max-width: 1184px;
@@ -29,13 +29,13 @@
         max-width: 768px;
         min-height: 480px;
     }
-} */
+}
 
 @media (max-width: 767px) {
-    .cover__overlay {/* 
+    .cover__overlay {
         max-width: 320px;
-        min-height: 200px; */
-        
+        min-height: 200px;
+
         gap: 16px;
     }
 }

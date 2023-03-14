@@ -3,9 +3,6 @@
     margin-top: 48px;
     margin-bottom: 92px;
     box-sizing: border-box;
-    /* display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +26,6 @@
 @media (max-width: 1023px) {
     .content-grid {
         margin-bottom: 88px;
-        grid-template-columns: auto;
         gap: 88px;
         max-width: 768px;
     }
