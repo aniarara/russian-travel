@@ -27,7 +27,7 @@
 
 @media (max-width: 767px) {
     .places {
-        grid-template-columns: 320px;
+        grid-template-columns: auto;
         row-gap: 50px;
     }
 }

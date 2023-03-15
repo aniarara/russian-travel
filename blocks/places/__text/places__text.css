@@ -7,5 +7,6 @@
 @media (max-width: 767px) {
     .places__text {
         width: 288px;
+        margin: 0 auto;
     }
 }

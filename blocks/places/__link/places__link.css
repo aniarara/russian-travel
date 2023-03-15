@@ -4,6 +4,7 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration: underline;
+    box-sizing: border-box;
 }
 
 .places__link:hover {

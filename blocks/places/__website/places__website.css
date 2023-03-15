@@ -9,5 +9,6 @@
 @media (max-width: 767px) {
     .places__website {
         width: 288px;
+        margin: 0 auto;
     }
 }
