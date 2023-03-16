@@ -1,5 +1,6 @@
 .footer {
-    margin: 0 auto 24px;
+    margin: 0 auto;
+    padding-bottom: 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +28,7 @@
     .footer {
         padding-bottom: 22px;
         padding-left: 16px;
-        width: 320px;
+        max-width: 304px;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
